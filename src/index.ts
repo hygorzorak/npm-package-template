@@ -1,1 +1,3 @@
-export * from './utils.js';
+export { demo } from './features/demo';
+
+export * from './utils';

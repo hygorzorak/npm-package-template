@@ -1,6 +1,9 @@
-import { hello } from './utils.js';
-import { test, expect } from 'vitest';
+import { describe, expect, test } from 'vitest';
 
-test('hello', () => {
-  expect(hello('world')).toBe('Hello, world!');
+import { hello } from './utils';
+
+describe('utils.ts', () => {
+  test('hello', () => {
+    expect(hello('world')).toBe('Hello, world!');
+  });
 });
