@@ -2,9 +2,7 @@
   "name": "npm-package-template",
   "version": "0.0.1",
   "description": "A template for building npm packages",
-  "keywords": [
-    "typescript"
-  ],
+  "keywords": ["typescript"],
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -33,10 +31,7 @@
     "type": "git",
     "url": "git+https://github.com/hygorzorak/npm-package-template.git"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  "files": ["dist", "README.md"],
   "simple-git-hooks": {
     "pre-commit": "npm run lint && npm run test"
   },
